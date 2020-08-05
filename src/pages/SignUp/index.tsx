@@ -8,7 +8,6 @@ import { Container, Content, Background } from './styles';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 import getValidationErrors from '../../utils/getValidationErrors';
-import SignIn from '../SignIn';
 
 const SignUp: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
