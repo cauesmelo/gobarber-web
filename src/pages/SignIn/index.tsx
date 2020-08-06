@@ -48,7 +48,7 @@ const SignIn: React.FC = () => {
         }
 
         addToast({
-          type: 'error',
+          type: 'info',
           title: 'Erro na auth',
           description: 'Erro no login',
         });
