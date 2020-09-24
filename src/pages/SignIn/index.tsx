@@ -54,13 +54,13 @@ const SignIn: React.FC = () => {
         }
 
         addToast({
-          type: 'info',
+          type: 'error',
           title: 'Erro na auth',
           description: 'Erro no login',
         });
       }
     },
-    [signIn, addToast],
+    [signIn, addToast, history],
   );
 
   return (
